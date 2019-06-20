@@ -1,3 +1,5 @@
 **
 !.vscodeignore
 !themes/*
+!favicon.png
+!README.md
