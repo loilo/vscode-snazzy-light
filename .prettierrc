@@ -1,0 +1,21 @@
+arrowParens: avoid
+bracketSpacing: true
+insertPragma: false
+printWidth: 80
+proseWrap: preserve
+semi: false
+singleQuote: true
+tabWidth: 2
+trailingComma: true
+useTabs: false
+
+overrides:
+  - files: 'themes/*.json'
+    options:
+      # Use JSON5 parser to add trailing commas
+      parser: json5
+      singleQuote: false
+      quoteProps: preserve
+      # Make scopes spread over multiple lines to improve diffs
+      # and make adding/removing scopes easier
+      printWidth: 0
