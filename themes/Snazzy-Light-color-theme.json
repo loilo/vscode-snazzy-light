@@ -10,6 +10,7 @@
     "menu.selectionBackground": "#2DAE5822",
     "editor.background": "#FAFBFC",
     "editor.foreground": "#565869",
+    "editorWhitespace.foreground": "#ADB1C255",
 
     // Title bar
     "titleBar.activeBackground": "#DEDFE0",
