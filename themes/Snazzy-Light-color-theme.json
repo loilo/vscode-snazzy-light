@@ -802,6 +802,15 @@
       },
     },
 
+    // JSX Overrides
+    {
+      "name": "JSX: Plain text",
+      "scope": "meta.jsx.children",
+      "settings": {
+        "foreground": "#686968",
+      },
+    },
+
     // YAML Overrides
     {
       "name": "YAML: Keys",
