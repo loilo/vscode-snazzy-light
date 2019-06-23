@@ -184,6 +184,7 @@
         "storage",
         "meta.class storage.type",
         "keyword.operator.expression.import",
+        "keyword.operator.new",
       ],
       "settings": {
         "foreground": "#F767BB",
