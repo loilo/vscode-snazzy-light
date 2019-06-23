@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 2019-06-24
+
+### Fixed
+
+- Usable menu, title bar & empty editor colors for Windows
+
 ## [1.1.1] - 2019-06-21
 
 ### Fixed

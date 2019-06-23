@@ -6,14 +6,19 @@
     "focusBorder": "#09A1ED",
     "foreground": "#686968",
     "selection.background": "#2DAE5844",
+    "editorGroup.emptyBackground": "#F3F4F5",
     "editor.selectionBackground": "#2DAE5822",
-    "menu.selectionBackground": "#2DAE5822",
+    "menu.selectionBackground": "#E9EAEB",
+    "menu.selectionForeground": "#686968",
+    "menu.background": "#FAFBFC",
+    "menubar.selectionBackground": "#E9EAEB",
+    "menubar.selectionForeground": "#686968",
     "editor.background": "#FAFBFC",
     "editor.foreground": "#565869",
     "editorWhitespace.foreground": "#ADB1C255",
 
     // Title bar
-    "titleBar.activeBackground": "#DEDFE0",
+    "titleBar.activeBackground": "#F3F4F5",
 
     // Tabs
     "tab.activeBorderTop": "#2DAE58",
