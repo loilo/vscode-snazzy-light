@@ -24,4 +24,4 @@ Thanks a lot to Umut, the author of the fantastic [Bluloco Light theme](https://
 
 I have tested Snazzy Light with a plethora of languages. However, I'm not proficient in many of them and may not have quite the right sense for how things should look.
 
-If something looks off in your preferred language, feel free to [open an issue](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/issues) and we can improve the colors together.
+If something looks off in your preferred language, feel free to [open an issue](https://github.com/loilo/vscode-snazzy-light/issues) and we can improve the colors together.
