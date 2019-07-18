@@ -794,6 +794,14 @@
       },
     },
     {
+      "scope": [
+        "support.function.js",
+      ],
+      "settings": {
+        "foreground": "#11658F",
+      },
+    },
+    {
       "name": "JavaScript: RegExp",
       "scope": "string.regexp.js",
       "settings": {
@@ -801,8 +809,11 @@
       },
     },
     {
-      "name": "JavaScript: super() call",
-      "scope": "variable.language.super",
+      "name": "JavaScript: super() call and Node.js 'module'",
+      "scope": [
+        "variable.language.super",
+        "support.type.object.module.js",
+      ],
       "settings": {
         "foreground": "#F767BB",
       },
@@ -863,6 +874,26 @@
       ],
       "settings": {
         "foreground": "#F767BB",
+      },
+    },
+    {
+      "name": "PHP: 'function' keyword before reference-returning method",
+      "scope": [
+        "meta.class.body.php storage.type.php",
+      ],
+      "settings": {
+        "foreground": "#F767BB",
+      },
+    },
+    {
+      "name": "PHP: Types turned pink by previous rule",
+      "scope": [
+        "storage.type.php",
+        "meta.class.body.php meta.function-call.php storage.type.php",
+        "meta.class.body.php meta.function.php storage.type.php",
+      ],
+      "settings": {
+        "foreground": "#2DAE58",
       },
     },
     {
