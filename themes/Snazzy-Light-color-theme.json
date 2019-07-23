@@ -856,6 +856,15 @@
       },
     },
     {
+      "name": "PHP: Use Aliases",
+      "scope": [
+        "meta.use.php entity.other.alias.php",
+      ],
+      "settings": {
+        "foreground": "#13BBB7",
+      },
+    },
+    {
       "name": "PHP: Constructs",
       "scope": [
         "source.php support.function.construct",
