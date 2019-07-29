@@ -170,8 +170,11 @@
       "name": "Property names",
       "scope": [
         "meta.object-literal.key",
+        "meta.object-literal.key constant.character.escape",
         "meta.object-literal string",
+        "meta.object-literal string constant.character.escape",
         "support.type.property-name",
+        "support.type.property-name constant.character.escape",
       ],
       "settings": {
         "foreground": "#11658F",
