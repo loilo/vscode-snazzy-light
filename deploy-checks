@@ -1,0 +1,76 @@
+#!/usr/bin/env node
+console.log('Checking deploy prerequisites...')
+console.log('')
+
+const { execSync } = require('child_process')
+const version = require('./package.json')
+  .version.toString()
+  .replace(/[^a-zA-Z0-9.-]/g, '')
+const { readFileSync } = require('fs')
+
+process.chdir(__dirname)
+
+function run(cmd) {
+  return execSync(cmd)
+    .toString()
+    .trim()
+}
+
+// Check for uncommitted changes
+
+const uncommittedChanges = run('git status --porcelain')
+if (uncommittedChanges.length > 0) {
+  console.error('ERROR: Project has uncommitted changes.')
+  process.exit(1)
+}
+
+// Check remote history
+
+const remoteChanges = run("git rev-list --count --left-only '@{u}...HEAD'")
+if (remoteChanges !== '0') {
+  console.error('ERROR: Remote has unmerged changes.')
+  process.exit(1)
+}
+
+// Check changelog
+
+const readmeContents = readFileSync('CHANGELOG.md', 'utf8')
+const changelogPattern = new RegExp(
+  `^## \\[${version.replace(/\./g, '\\.')}\\] - `,
+  'm'
+)
+if (!changelogPattern.test(readmeContents)) {
+  console.error(`ERROR: No changelog entry was created for version ${version}.`)
+  process.exit(1)
+}
+
+// Check for version bump
+
+const changedFiles = run('git diff-tree --no-commit-id --name-only -r HEAD')
+
+let versionBump = false
+if (/^package\.json$/m.test(changedFiles)) {
+  const latestPackageJsonChanges = run('git diff HEAD^ HEAD package.json')
+
+  if (
+    /^-\s*"version": "[0-9a-zA-Z.-]+",?$/m.test(latestPackageJsonChanges) &&
+    /^\+\s*"version": "[0-9a-zA-Z.-]+",?$/m.test(latestPackageJsonChanges)
+  ) {
+    versionBump = true
+  }
+}
+
+if (!versionBump) {
+  console.error('ERROR: Latest commit does not contain a version bump.')
+  process.exit(1)
+}
+
+// Check for tag
+
+const hasTag = run('git tag -l ' + version)
+if (hasTag.length === 0) {
+  console.error(`ERROR: git tag with current version ${version} is not set.`)
+  process.exit(1)
+}
+
+console.log('All good, continue to deploy.')

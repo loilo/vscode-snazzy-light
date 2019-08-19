@@ -8,7 +8,7 @@
     "vscode": "^1.28.0"
   },
   "scripts": {
-    "deploy": "vsce publish"
+    "deploy": "./deploy-checks && git push && git push --tags && vsce publish"
   },
   "repository": {
     "type": "git",
