@@ -4,19 +4,15 @@ Snazzy Light is a vivid light color theme. Its colors are based on Sindre Sorhus
 
 Besides looking decent, the main goal of this theme is to show clear and distinct colors under bright ambient light conditions. This makes it suitable e.g. for train commute with intense sunlight.
 
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/color-palette.png" width="695" height="140" alt="This theme's color palette">
+![This theme's color palette](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/color-palette.png)
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/javascript.png" width="636" height="453.5" alt="Screenshot of some JavaScript sample code">
-
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/scss.png" width="636" height="453.5" alt="Screenshot of some Sass sample code">
-
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/html.png" width="636" height="453.5" alt="Screenshot of some HTML sample code">
-
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/php.png" width="636" height="453.5" alt="Screenshot of some PHP sample code">
-
-<img src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/markdown.png" width="636" height="453.5" alt="Screenshot of some Markdown sample code">
+![Screenshot of some JavaScript sample code](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/javascript.png)
+![Screenshot of some Sass sample code](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/scss.png)
+![Screenshot of some HTML sample code](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/html.png)
+![Screenshot of some PHP sample code](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/php.png)
+![Screenshot of some Markdown sample code](https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/markdown.png)
 
 Thanks a lot to Umut, the author of the fantastic [Bluloco Light theme](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light), for providing the [syntax highlighting samples](https://github.com/uloco/syntax-highlighting-samples).
 
