@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6] - 2019-08-19
+
+- Retrospectively added changelog entries for versions 1.1.3 to 1.1.5
+- Added deploy prepare script to catch common errors (like filling the changelog) before deploying a new version
+- Removed added/changed/fixed categories from changelog as unfitting for this kind of project
+- Removed fixed image size of preview screenshots from readme
+
 ## [1.1.5] - 2019-07-29
 
 - Streamline color of escape characters inside property names
