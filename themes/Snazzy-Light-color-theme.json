@@ -634,6 +634,13 @@
 
     // Stylus Overrides
     {
+      "name": "Stylus: Curly Braces",
+      "scope": "source.stylus meta.brace.curly.css",
+      "settings": {
+        "foreground": "#ADB1C2",
+      },
+    },
+    {
       "name": "Stylus: Selectors",
       "scope": [
         "source.stylus entity.other.attribute-name.class",

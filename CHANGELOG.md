@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.7] - 2019-09-23
+
+- Improved color of curly braces in Stylus
+
 ## [1.1.6] - 2019-08-19
 
 - Retrospectively added changelog entries for versions 1.1.3 to 1.1.5
