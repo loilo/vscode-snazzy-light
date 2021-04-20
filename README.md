@@ -8,11 +8,11 @@ Besides looking decent, the main goal of this theme is to show clear and distinc
 
 ## Screenshots
 
-<img alt="Screenshot of some JavaScript sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/javascript.png" width="1065" height="774">
-<img alt="Screenshot of some Sass sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/scss.png" width="1065" height="774">
-<img alt="Screenshot of some HTML sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/html.png" width="1065" height="774">
-<img alt="Screenshot of some PHP sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/php.png" width="1065" height="774">
-<img alt="Screenshot of some Markdown sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/markdown.png" width="1065" height="774">
+<img alt="Screenshot of some JavaScript sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/javascript.png" width="1065">
+<img alt="Screenshot of some Sass sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/scss.png" width="1065">
+<img alt="Screenshot of some HTML sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/html.png" width="1065">
+<img alt="Screenshot of some PHP sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/php.png" width="1065">
+<img alt="Screenshot of some Markdown sample code" src="https://raw.githubusercontent.com/loilo/vscode-snazzy-light/master/screenshots/markdown.png" width="1065">
 
 Thanks a lot to Umut, the author of the fantastic [Bluloco Light theme](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light), for providing the [syntax highlighting samples](https://github.com/uloco/syntax-highlighting-samples).
 
