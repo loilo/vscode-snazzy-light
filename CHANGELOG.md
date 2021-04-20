@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.8] - 2021-04-20
+
+- Show better screenshots in readme
+
 ## [1.1.7] - 2019-09-23
 
 - Improved color of curly braces in Stylus
