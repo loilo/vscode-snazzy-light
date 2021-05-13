@@ -364,6 +364,8 @@
       "name": "Strings: Regular Expressions Punctuation",
       "scope": [
         "keyword.operator.quantifier.regexp",
+        "keyword.operator.negation.regexp",
+        "keyword.operator.or.regexp",
         "string.regexp punctuation",
         "string.regexp keyword",
         "string.regexp keyword.control",
