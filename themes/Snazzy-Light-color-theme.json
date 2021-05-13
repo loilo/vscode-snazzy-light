@@ -397,7 +397,6 @@
         "punctuation.definition.comment",
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ADB1C2",
       },
     },
