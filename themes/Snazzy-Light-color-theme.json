@@ -640,6 +640,15 @@
         "foreground": "#F767BB",
       },
     },
+    {
+      "name": "SCSS: Ampersand",
+      "scope": [
+          "entity.name.tag.reference.scss",
+      ],
+      "settings": {
+        "foreground": "#C25193",
+      },
+    },
 
     // Less Overrides
     {
