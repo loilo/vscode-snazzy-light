@@ -3,7 +3,7 @@
   "displayName": "Snazzy Light",
   "publisher": "loilo",
   "description": "A vivid light color theme determined to be clear and distinct under bright ambient light",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.28.0"
   },

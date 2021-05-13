@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.1] - 2021-05-13
+
+- Update logo
+
 ## [1.2.0] - 2021-05-13
 
 - Use correct keyword color for JavaScript's `delete` keyword
