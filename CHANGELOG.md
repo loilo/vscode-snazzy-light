@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.2] - 2021-05-13
+
+- Align color of additional regex characters
+- Fix punctuation color in @mixin and @include property lists
+
 ## [1.2.1] - 2021-05-13
 
 - Update logo
