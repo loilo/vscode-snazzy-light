@@ -660,6 +660,16 @@
         "foreground": "#C25193",
       },
     },
+    {
+      "name": "SCSS: Punctuation",
+      "scope": [
+        "meta.at-rule.mixin.scss",
+        "meta.at-rule.include.scss",
+      ],
+      "settings": {
+        "foreground": "#ADB1C2",
+      },
+    },
 
     // Less Overrides
     {
