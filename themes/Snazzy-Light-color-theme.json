@@ -651,6 +651,15 @@
         "foreground": "#C25193",
       },
     },
+    {
+      "name": "SCSS: @content",
+      "scope": [
+        "keyword.control.content.scss",
+      ],
+      "settings": {
+        "foreground": "#C25193",
+      },
+    },
 
     // Less Overrides
     {
