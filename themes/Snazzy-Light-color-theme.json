@@ -534,6 +534,17 @@
       },
     },
     {
+      "name": "CSS: At-rules",
+      "scope": [
+          "keyword.control.at-rule",
+          "keyword.control.at-rule punctuation.definition.keyword",
+          "entity.other.attribute-name.pseudo-class.css",
+      ],
+      "settings": {
+        "foreground": "#C25193",
+      },
+    },
+    {
       "name": "CSS: Variables",
       "scope": "source.css variable",
       "settings": {
