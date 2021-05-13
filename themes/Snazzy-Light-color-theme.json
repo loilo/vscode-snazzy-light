@@ -833,6 +833,17 @@
       },
     },
     {
+      "name": "JavaScript: Special import/export entities",
+      "scope": [
+        "constant.language.import-export-all",
+        "meta.import keyword.control.default"
+      ],
+      "settings": {
+        "foreground": "#C25193",
+      },
+    },
+    {
+      "name": "JavaScript: Built-in functions",
       "scope": [
         "support.function.js",
       ],
