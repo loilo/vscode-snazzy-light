@@ -541,13 +541,6 @@
       },
     },
     {
-      "name": "CSS: Punctuation",
-      "scope": "punctuation.definition.entity.css",
-      "settings": {
-        "foreground": "#FF82CBBB",
-      },
-    },
-    {
       "name": "CSS: Property Names",
       "scope": [
         "source.css meta.property-name",
@@ -586,13 +579,17 @@
       },
     },
     {
-      "name": "CSS: Pseudo classes",
+      "name": "CSS: Selector punctuation & pseudo classes/elements",
       "scope": [
+        "punctuation.definition.entity.css",
+        "keyword.operator.combinator.css",
         "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
         "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
       ],
       "settings": {
-        "foreground": "#CF9C00",
+        "foreground": "#FF82CBBB",
       },
     },
     {
