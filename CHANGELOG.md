@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.0] - 2021-05-13
+
+- Use correct keyword color for JavaScript's `delete` keyword
+- Unify color of punctuation and special characters in regular expressions
+- No longer set comments in italic
+- Use punctuation color for commas separating CSS selectors
+- Align color of CSS punctuation, pseudo classes and pseudo elements
+- Improve color of CSS at-rules
+- Improve color of SCSS ampersand
+- Use highlighted yet aligned color for special JS import/export entities
+
 ## [1.1.8] - 2021-04-20
 
 - Show better screenshots in readme
