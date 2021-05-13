@@ -363,21 +363,15 @@
     {
       "name": "Strings: Regular Expressions Punctuation",
       "scope": [
+        "keyword.operator.quantifier.regexp",
         "string.regexp punctuation",
-      ],
-      "settings": {
-        "foreground": "#00A39F",
-      },
-    },
-    {
-      "name": "Strings: Regular Expressions Special Characters",
-      "scope": [
         "string.regexp keyword",
         "string.regexp keyword.control",
         "string.regexp constant",
+        "variable.other.regexp",
       ],
       "settings": {
-        "foreground": "#F767BB",
+        "foreground": "#00A39F",
       },
     },
     {
@@ -386,7 +380,7 @@
         "string.regexp keyword.other",
       ],
       "settings": {
-        "foreground": "#00A39FBB",
+        "foreground": "#00A39F88",
       },
     },
     {
