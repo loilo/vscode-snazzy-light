@@ -513,6 +513,15 @@
 
     // CSS Overrides
     {
+      "name": "CSS: Base font color (just to colorize multi-selector commas correctly)",
+      "scope": [
+          "source.css",
+      ],
+      "settings": {
+          "foreground": "#ADB1C2"
+      }
+    },
+    {
       "name": "CSS: Selectors",
       "scope": [
         "meta.selector",
@@ -604,6 +613,15 @@
     },
 
     // Sass Overrides
+    {
+      "name": "SCSS: Base font color",
+      "scope": [
+          "source.css.scss",
+      ],
+      "settings": {
+          "foreground": "#F767BB"
+      }
+    },
     {
       "name": "SCSS: Class names & IDs",
       "scope": [
