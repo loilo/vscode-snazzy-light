@@ -591,14 +591,10 @@
       },
     },
     {
-      "name": "CSS: Selector punctuation & pseudo classes/elements",
+      "name": "CSS: Selector punctuation",
       "scope": [
         "punctuation.definition.entity.css",
-        "keyword.operator.combinator.css",
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
-        "entity.other.attribute-name.pseudo-element.css",
-        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "keyword.operator.combinator.css"
       ],
       "settings": {
         "foreground": "#FF82CBBB",
