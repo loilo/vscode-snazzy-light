@@ -540,7 +540,6 @@
       "scope": [
           "keyword.control.at-rule",
           "keyword.control.at-rule punctuation.definition.keyword",
-          "entity.other.attribute-name.pseudo-class.css",
       ],
       "settings": {
         "foreground": "#C25193",
