@@ -664,6 +664,10 @@
       "scope": [
         "meta.at-rule.mixin.scss",
         "meta.at-rule.include.scss",
+        "source.css.scss meta.at-rule.if",
+        "source.css.scss meta.at-rule.else",
+        "source.css.scss meta.at-rule.each",
+        "source.css.scss meta.at-rule variable.parameter",
       ],
       "settings": {
         "foreground": "#ADB1C2",
