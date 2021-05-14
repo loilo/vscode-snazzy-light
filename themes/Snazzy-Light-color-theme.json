@@ -647,9 +647,13 @@
       },
     },
     {
-      "name": "SCSS: @content",
+      "name": "SCSS: Additional at-rules",
       "scope": [
+        "source.css.scss meta.at-rule keyword",
+        "source.css.scss meta.at-rule keyword punctuation",
         "keyword.control.content.scss",
+        "keyword.control.return.scss",
+        "keyword.control.return.scss punctuation.definition.keyword",
       ],
       "settings": {
         "foreground": "#C25193",
