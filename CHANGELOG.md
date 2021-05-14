@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.3] - 2021-05-14
+
+- Use consistent color for more SCSS at-rules and punctuation
+
 ## [1.2.2] - 2021-05-13
 
 - Align color of additional regex characters
