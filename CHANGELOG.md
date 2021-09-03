@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.0] - 2021-09-03
+
+- Use consistent color for more SCSS at-rules and punctuation
+
 ## [1.2.3] - 2021-05-14
 
 - Use consistent color for more SCSS at-rules and punctuation
