@@ -157,6 +157,10 @@
     // Badges
     "badge.background": "#09A1ED",
     "badge.foreground": "#ffffff",
+
+    // Inlay hints
+    "editorInlayHint.foreground": "#565869",
+    "editorInlayHint.background": "#E9EAEB",
   },
   "tokenColors": [
     {
