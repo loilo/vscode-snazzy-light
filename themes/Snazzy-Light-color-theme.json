@@ -651,6 +651,7 @@
       "scope": [
         "source.css.scss meta.at-rule keyword",
         "source.css.scss meta.at-rule keyword punctuation",
+        "source.css.scss meta.at-rule operator.logical",
         "keyword.control.content.scss",
         "keyword.control.return.scss",
         "keyword.control.return.scss punctuation.definition.keyword",
