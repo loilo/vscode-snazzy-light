@@ -491,7 +491,7 @@
     },
     {
       "name": "HTML: Tag Names",
-      "scope": "entity.name.tag",
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#13BBB7",
       },
@@ -1352,6 +1352,17 @@
       },
     },
 
+    // Latte Overrides
+    {
+      "name": "Latte: Punctuation",
+      "scope": [
+        "tag.end.latte,tag.begin.latte",
+      ],
+      "settings": {
+        "foreground": "#ADB1C2",
+      },
+    },
+
     // OCaml Overrides
     {
       "name": "OCaml: No underlines",
@@ -1687,6 +1698,15 @@
       ],
       "settings": {
         "foreground": "#ADB1C2",
+      },
+    },
+
+    // Volar Overrides
+    {
+      "name": "Volar: <style> tag",
+      "scope": "entity.name.tag.style.html",
+      "settings": {
+        "foreground": "#13BBB7",
       },
     },
 
