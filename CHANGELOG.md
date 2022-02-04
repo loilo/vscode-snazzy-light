@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.1] - 2022-02-04
+
+- Improve punctuation color of Latte templates
+- Use correct color for `<style>` tag in Vue components when using the Volar extension
+
 ## [1.3.0] - 2021-09-03
 
 - Use consistent color for more SCSS at-rules and punctuation
