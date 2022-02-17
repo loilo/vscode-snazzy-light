@@ -1356,7 +1356,8 @@
     {
       "name": "Latte: Punctuation",
       "scope": [
-        "tag.end.latte,tag.begin.latte",
+        "tag.end.latte",
+        "tag.begin.latte",
       ],
       "settings": {
         "foreground": "#ADB1C2",
