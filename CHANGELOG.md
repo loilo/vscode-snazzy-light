@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.2] - 2022-02-17
+
+- Use correct formatting for Latte punctuation scopes
+
 ## [1.3.1] - 2022-02-04
 
 - Improve punctuation color of Latte templates
