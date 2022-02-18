@@ -1364,6 +1364,43 @@
       },
     },
 
+    // Gettext
+    {
+      "name": "Gettext: Keyword",
+      "scope": "source.po keyword.control",
+      "settings": {
+        "foreground": "#11658F"
+      }
+    },
+    {
+      "name": "Gettext: Source file",
+      "scope": "source.po storage.type",
+      "settings": {
+        "foreground": "#9194A2"
+      }
+    },
+    {
+      "name": "Gettext: Constant",
+      "scope": "constant.language.po",
+      "settings": {
+        "foreground": "#13BBB7"
+      }
+    },
+    {
+      "name": "Gettext: Constant Value",
+      "scope": "meta.header.po string",
+      "settings": {
+        "foreground": "#FF8380"
+      }
+    },
+    {
+      "name": "Gettext: Base Color",
+      "scope": "source.po meta.header.po",
+      "settings": {
+        "foreground": "#ADB1C2"
+      }
+    },
+
     // OCaml Overrides
     {
       "name": "OCaml: No underlines",
