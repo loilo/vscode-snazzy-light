@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.0] - 2022-02-18
+
+- Add support for gettext syntax
+
 ## [1.3.2] - 2022-02-17
 
 - Use correct formatting for Latte punctuation scopes
