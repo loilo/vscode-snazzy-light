@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.1] - 2023-10-08
+
+- Fix readability of sticky scrolling lines in peek view (by @scottcheng)
+
 ## [1.4.0] - 2022-02-18
 
 - Add support for gettext syntax
