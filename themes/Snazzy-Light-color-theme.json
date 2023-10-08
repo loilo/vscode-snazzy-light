@@ -132,7 +132,7 @@
     "peekViewEditor.background": "#14B1FF08",
     "peekViewEditor.matchHighlightBackground": "#F5B90088",
     "peekViewEditor.matchHighlightBorder": "#F5B900",
-    "peekViewEditorStickyScroll.background": "#F3F4F5",
+    "peekViewEditorStickyScroll.background": "#EDF4FB",
     "peekViewResult.selectionBackground": "#09A1ED",
     "peekViewResult.selectionForeground": "#FFFFFF",
     "peekViewResult.matchHighlightBackground": "#F5B90088",
